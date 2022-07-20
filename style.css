@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: calibri;
+}
+/*Navber boshlandi:)*/
+.navber{
+    width: 100%;
+    height: 70px;
+    border: 1px solid #333;
+    background-color: #333;
+}
+.nav_box{
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+}
+.logo{
+    width:30%;
+    height:100%;
+
+    display: flex;
+    align-items: center;
+}
+.menu{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo h1{
+    color: white;
+    text-transform: uppercase;
+    font-family: calibri;
+    font-size: 28px;
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+}
+.menu ul li{
+    padding: 20px;
+}   
+.menu ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: calibri;
+}
+.activ{
+    border-bottom: 2px solid orangered;
+}
+/*Navber tugadi :(*/
+
+
+/*Navber boshlandi:)*/
+.bg_img{
+    width: 100%;
+    height: 500px;
+    background-image: url(./bg.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bg_img_text{
+    width: 70%;
+    height: 200px;
+
+}
+.bg_img_text p{
+    text-align: center;
+    color: orangered;
+    font-size: 25px;
+    font-family: calibri;
+}
+.bg_img_text h1{
+    text-align: center;
+    font-size: 80px;
+    font-family: calibri;
+    color: white;
+    text-transform: uppercase;
+}
+/*Navber tugadi :(*/
+
+.content_full{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    width: 70%;
+    height: 90%;
+
+}
+.content_top{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(226, 226, 226);
+}
+.content_buttom{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content_top h1{
+    color: black;
+    font-family: calibri;
+    font-size: 30px;
+}
+.content_top p{
+    position: relative;
+    right: -500px;
+    color: orangered;
+    font-size: 18px;
+    font-family: calibri;
+    font-weight: 700;
+}
+.content_box{
+    width: 31%;
+    height: 95%;
+    border: 1px solid rgb(226, 226, 226);
+
+}
+.content_box_img{
+    width: 100%;
+    height: 50%;
+ 
+}
+.content_box_text{
+    width: 100%;
+    height: 50%;
+    padding: 20px;
+}
+.content_box_img img{
+    width: 100%;
+    height: 100%;
+}
+.content_box_text h2{
+    color: dodgerblue;
+    font-family: calibri;
+}
+.content_box_text h3{ 
+    font-family: calibri;
+    font-size: 20px;
+}
+.content_box_text p{
+    font-family: calibri;
+    font-size: 18px;
+}
+/*Navber tugadi :(*/
+
+.about{
+    width: 100%;
+    height: 600px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about_box{
+    width: 70%;
+    height: 90%;
+}
+.about_top{
+    width: 100%;
+    height: 10%;
+    border: 1px solid rgb(226, 226, 226);
+    display: flex;
+    align-items: center;
+}
+.about_buttom{
+    width: 100%;
+    height: 90%;
+    display: flex;
+}
+.about_top > h1{
+    color: black;
+    font-family: calibri;
+    font-size: 30px;
+}
+.about_left{
+    width: 50%;
+    height: 100%;
+    padding: 15px;
+}
+.about_right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+.about_left > p{
+    font-size: 20px;
+    font-family: calibri;
+}
+.about_left > ul{
+        position: relative;
+        left: 20px;
+}
+.about_left > ul li{
+    font-size: 20px;
+    font-family: calibri;  
+    margin-top: 10px; 
+}
+.about_left > button{
+    padding: 15px 30px;
+    background-color: rgb(207, 10, 10);
+    color: white;
+    border: none;
+}
+.about_right > img{
+    width: 100%;
+    height: 80%;
+}
+
+/* tugadi */
+
+.blog{
+    width: 100%;
+    height: 700px;
+    border: 1px solid red;
+    background-image: url(./other-image-fullscren-1-1920x900.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blog_box{
+    width: 70%;
+    height: 90%;
+    border: 1px solid red;
+}
+.blog_top{
+    width: 100%;
+    height: 10%;
+    border-bottom: 1px solid white;
+    display: flex;
+    align-items: center;
+} 
+.blog_buttom{
+    width: 100%;
+    height:90%;
+    border: 1px solid green;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.blog_top > h1{
+    color: white;
+    font-size: 30px;
+}
+.blog_top > p{
+    position: relative;
+    right: -500px;
+    color: orangered;
+    font-size: 18px;
+    font-family: calibri;
+    font-weight: 700;
+}
+.blog_card{
+    width: 31%;
+    height: 95%;
+    border: 1px solid blue;
+}
+.blog_card > .card_img{
+    width: 100%;
+    height: 60%;
+    border: 1px solid black;
+}
+.blog_card > .card_text{
+    width: 100%;
+    height: 40%;
+    border: 1px solid black;
+}
